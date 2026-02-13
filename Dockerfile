@@ -13,4 +13,5 @@ RUN npm install && npm install -g pm2
 EXPOSE 9090
 
 # Start the app
-CMD ["npm", "start"]
+CMD ["pm2-runtime", "index.js"]
+
